@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Web Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Advanced CSS & JavaScript Project</h1>
+  </header>
+
+  <main>
+    <!-- Quiz Section -->
+    <section class="card" id="quizSection">
+      <h2>Quiz</h2>
+      <p id="question">Loading question...</p>
+      <div id="options"></div>
+      <button id="nextBtn" onclick="loadNextQuestion()">Next</button>
+    </section>
+
+    <!-- API Fetch Section -->
+    <section class="card" id="apiSection">
+      <h2>Random Joke</h2>
+      <p id="joke">Click the button to get a joke!</p>
+      <button onclick="fetchJoke()">Get Joke</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

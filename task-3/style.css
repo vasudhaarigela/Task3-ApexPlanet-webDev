@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+  }
+  
+  header {
+    background: #4e89ae;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  button {
+    background: #4e89ae;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #3c6f91;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
+  
